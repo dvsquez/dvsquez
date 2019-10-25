@@ -1,0 +1,92 @@
+*{
+	margin: 0; 
+	padding: 0
+}
+html {
+	scroll-behavior: smooth;
+}
+body { 
+	font-family: bahnschrift;
+	background: #E1c699;
+}
+.wrapper {
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: darkblue;
+	font-size: 25px;
+	margin-right: 3%;
+	margin-left: 1%;
+	margin-bottom: 3%;
+}
+a:hover{
+	color: lightblue;
+	transition: 1s;
+}
+.img1{
+	display: flex;
+	justify-content: center;
+}
+h1, h2{
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+	margin-bottom: 5%;
+	margin-top: 3%;
+	background-color: #F9e4b7
+}
+.experienciaimg{
+	display: flex;
+	justify-content: center;
+	padding-top: 2%
+}
+.text1 {
+	display: flex;
+	justify-content: center;
+}
+.text2 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 3%
+}
+.educacion {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 1%
+}
+.educacion img {
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+	border-color: #000000;
+	margin-bottom: 5%;
+	margin-right: 1%
+	width:100%;
+}
+.educacion-texto {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+	margin-right: 1%
+}
+.educacion-texto2 {
+	margin-left: 1%;
+	font-size: 20px;
+}
+.educacion2 img{
+	margin-left: 1%;
+	width: 40%;
+}
+.filmes{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.filmes img{
+	margin-bottom: 5% 
+}
+@media screen and (min-width: 600px) and (max-width: 959px){
+	.educacion {display: flex; justify-content: center;}
+}
+@media screen and (min-width: 0px) and (max-width: 599px){
+	.educacion {display: flex; justify-content: center;}
+}
