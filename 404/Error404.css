@@ -1,0 +1,42 @@
+@keyframes anim1 {
+	0%{transform: translate(800px, -600px);opacity: 0;}
+	50%{transform: translate(800px, -600px);opacity: 1;}
+	100%{transform: translate(800px, -600px);opacity: 1;}
+}
+@keyframes txt1 {
+	0%{transform: translate(-225px, -125px);opacity: 0;}
+	100%{transform: translate(-225px, -125px);opacity: 1;}
+}
+@keyframes {
+
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-image: url(aron.jpg);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-color: #000000
+}
+.Error {
+	width: 1024px;
+	height: 768px;
+	padding-left: 20%
+}
+.Pale {
+	animation-name: anim1;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out; 
+}
+h2{
+	animation-name: txt1;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out; 
+}
+
+
